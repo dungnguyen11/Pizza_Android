@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainWhite"
+    tools:context="com.example.sam.pizza.Customer.MakeOrderCustomerActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+        <Button
+            android:id="@+id/customer_log_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log out"
+            android:textAllCaps="true"
+            android:background="@color/mainBlack"
+            android:textColor="@color/mainWhite"
+            android:layout_alignParentRight="true"
+            android:textSize="16dp"/>
+        <Button
+            android:id="@+id/customer_order_list_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" order list "
+            android:textAllCaps="true"
+            android:layout_below="@id/customer_log_out_button"
+            android:layout_marginTop="20dp"
+            android:textSize="24dp"
+            android:background="@color/mainBlack"
+            android:textColor="@color/mainWhite"/>
+        <TextView
+            android:id="@+id/customer_new_order_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="new order "
+            android:textAllCaps="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/customer_log_out_button"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/mainBlack"
+            android:textSize="24dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/hawaii_pizza2"
+                android:layout_margin="8dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/seafood_pizza"
+                android:layout_margin="8dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/pepperoni_pizza"
+                android:layout_margin="8dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/super_delux_pizza"
+                android:layout_margin="8dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/customer_order_next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textAllCaps="true"
+        android:background="@color/mainBlack"
+        android:textColor="@color/mainWhite"
+        android:textSize="16dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
