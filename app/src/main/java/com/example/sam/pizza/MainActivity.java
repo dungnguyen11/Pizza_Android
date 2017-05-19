@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.sam.pizza.Customer.CustomerActivity;
-import com.example.sam.pizza.Delivery.DeliveryActivity;
+import com.example.sam.pizza.Delivery.DeliveryListActivity;
 import com.example.sam.pizza.Owner.OwnerActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent ownerIntent = new  Intent(view.getContext(), OwnerActivity.class);
                     startActivityForResult(ownerIntent, 0);
                 } else if (getLoginName().equalsIgnoreCase("delivery")) {
-                    Intent deliveryIntent = new Intent(view.getContext(), DeliveryActivity.class);
+                    Intent deliveryIntent = new Intent(view.getContext(), DeliveryListActivity.class);
                     startActivityForResult(deliveryIntent, 0);
                 }
             }
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 //        Button deliveryButton = (Button) findViewById(R.id.delivery_button);
 //        deliveryButton.setOnClickListener(new View.OnClickListener(){
 //            public void onClick(View view) {
-//                Intent deliveryIntent = new Intent(view.getContext(), DeliveryActivity.class);
+//                Intent deliveryIntent = new Intent(view.getContext(), DeliveryListActivity.class);
 //                startActivityForResult(deliveryIntent, 0);
 //            }
 //        });

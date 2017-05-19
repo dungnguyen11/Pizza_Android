@@ -29,5 +29,7 @@
         completions."
     </string>
 
+    <string name="delivery_address">702 Nguyen Van Linh\nWard. Tan Phong Dist. 7</string>
+    <string name="successful_delivery">Successful delivery!</string>
 
 </resources>

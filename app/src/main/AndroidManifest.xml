@@ -23,12 +23,14 @@
         </activity>
         <activity android:name=".Customer.MakeOrderCustomerActivity_old" />
         <activity android:name=".Owner.OwnerActivity" />
-        <activity android:name=".Delivery.DeliveryActivity" />
+        <activity android:name=".Delivery.DeliveryListActivity" />
         <activity android:name=".Customer.CustomerActivity" />
         <activity android:name=".Customer.CheckOrderActivity" />
         <activity android:name=".Customer.FeedbackActivity" />
         <activity android:name=".Customer.MakeOrderCustomerActivity" />
-        <activity android:name=".Customer.ConfirmOrderActivity"></activity>
+        <activity android:name=".Customer.ConfirmOrderActivity" />
+        <activity android:name=".Delivery.FinishedOrderedActivity" />
+        <activity android:name=".Delivery.OrderInfoActivity"></activity>
     </application>
 
 </manifest>
