@@ -13,7 +13,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,16 +21,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Customer.MakeOrderCustomerActivity_old" />
-        <activity android:name=".Owner.OwnerActivity" />
-        <activity android:name=".Delivery.DeliveryListActivity" />
-        <activity android:name=".Customer.CustomerActivity" />
-        <activity android:name=".Customer.CheckOrderActivity" />
-        <activity android:name=".Customer.FeedbackActivity" />
-        <activity android:name=".Customer.MakeOrderCustomerActivity" />
-        <activity android:name=".Customer.ConfirmOrderActivity" />
-        <activity android:name=".Delivery.FinishedOrderedActivity" />
-        <activity android:name=".Delivery.OrderInfoActivity"></activity>
+        <activity android:name=".CustomerActivities.MakeOrderCustomerActivity_old" />
+        <activity android:name=".OwnerActivities.OwnerActivity" />
+        <activity android:name=".DeliveryActivities.DeliveryListActivity" />
+        <activity android:name=".CustomerActivities.CustomerActivity" />
+        <activity android:name=".CustomerActivities.CheckOrderActivity" />
+        <activity android:name=".CustomerActivities.FeedbackActivity" />
+        <activity android:name=".CustomerActivities.MakeOrderCustomerActivity" />
+        <activity android:name=".CustomerActivities.ConfirmOrderActivity" />
+        <activity android:name=".DeliveryActivities.FinishedOrderedActivity" />
+        <activity android:name=".DeliveryActivities.OrderInfoActivity"></activity>
     </application>
 
 </manifest>

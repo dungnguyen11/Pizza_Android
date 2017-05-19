@@ -1,4 +1,4 @@
-package com.example.sam.pizza.Owner;
+package com.example.sam.pizza.OwnerActivities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

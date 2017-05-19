@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.sam.pizza.Customer.MakeOrderCustomerActivity_old"
+    tools:context="com.example.sam.pizza.CustomerClass.MakeOrderCustomerActivity_old"
     android:background="@color/mainWhite">
 
     <RelativeLayout
@@ -15,12 +15,12 @@
             android:id="@+id/customer_log_out_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Log out"
+            android:text=" Log out "
             android:textAllCaps="true"
             android:background="@color/mainBlack"
             android:textColor="@color/mainWhite"
             android:layout_alignParentRight="true"
-            android:textSize="16dp"/>
+            android:textSize="24dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,10 +38,10 @@
             android:textAllCaps="true"
             android:layout_alignParentRight="true"
             android:layout_below="@id/customer_log_out_button"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:background="@color/mainBlack"
             android:textColor="@color/mainWhite"
-            android:textSize="16dp"/>
+            android:textSize="24dp"/>
     </RelativeLayout>
 
     <TextView

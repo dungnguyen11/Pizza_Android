@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/mainWhite"
-    tools:context="com.example.sam.pizza.Customer.MakeOrderCustomerActivity"
+    tools:context="com.example.sam.pizza.CustomerClass.MakeOrderCustomerActivity"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -29,7 +29,7 @@
             android:text=" order list "
             android:textAllCaps="true"
             android:layout_below="@id/customer_log_out_button"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="24dp"
             android:textSize="24dp"
             android:background="@color/mainBlack"
             android:textColor="@color/mainWhite"/>
@@ -41,7 +41,7 @@
             android:textAllCaps="true"
             android:layout_alignParentRight="true"
             android:layout_below="@id/customer_log_out_button"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="24dp"
             android:textColor="@color/mainBlack"
             android:textSize="24dp"/>
     </RelativeLayout>
@@ -56,11 +56,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
+                android:id="@+id/order_hawaiian"
+                android:onClick="addPizza"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/hawaii_pizza2"
                 android:layout_margin="8dp"/>
             <ImageView
+                android:id="@+id/order_seafood"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/seafood_pizza"
@@ -70,11 +73,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
+                android:id="@+id/order_pepperoni"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/pepperoni_pizza"
                 android:layout_margin="8dp"/>
             <ImageView
+                android:id="@+id/order_deluxe"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/super_delux_pizza"
@@ -82,16 +87,17 @@
 
         </LinearLayout>
     </LinearLayout>
+
     <Button
         android:id="@+id/customer_order_next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
+        android:text=" Next "
         android:textAllCaps="true"
         android:background="@color/mainBlack"
         android:textColor="@color/mainWhite"
-        android:textSize="16dp"
-        android:layout_marginLeft="260dp"
+        android:textSize="24dp"
+        android:layout_marginLeft="265dp"
         android:layout_marginBottom="8dp"/>
 
 </LinearLayout>

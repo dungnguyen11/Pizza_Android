@@ -1,11 +1,11 @@
-package com.example.sam.pizza.Customer;
+package com.example.sam.pizza.CustomerActivities;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
 import com.example.sam.pizza.R;
 
-public class CheckOrderActivity extends AppCompatActivity {
+public class CheckOrderActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

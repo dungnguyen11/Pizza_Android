@@ -1,17 +1,17 @@
 package com.example.sam.pizza;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.sam.pizza.Customer.CustomerActivity;
-import com.example.sam.pizza.Delivery.DeliveryListActivity;
-import com.example.sam.pizza.Owner.OwnerActivity;
+import com.example.sam.pizza.CustomerActivities.CustomerActivity;
+import com.example.sam.pizza.DeliveryActivities.DeliveryListActivity;
+import com.example.sam.pizza.OwnerActivities.OwnerActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

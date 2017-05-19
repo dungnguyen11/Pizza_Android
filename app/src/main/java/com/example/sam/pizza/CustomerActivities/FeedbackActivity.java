@@ -1,13 +1,13 @@
-package com.example.sam.pizza.Customer;
+package com.example.sam.pizza.CustomerActivities;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
 import com.example.sam.pizza.R;
 
-public class FeedbackActivity extends AppCompatActivity {
+public class FeedbackActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

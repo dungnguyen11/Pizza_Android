@@ -1,4 +1,4 @@
-package com.example.sam.pizza.Customer;
+package com.example.sam.pizza.CustomerActivities;
 
 import android.app.Activity;
 import android.os.Bundle;
