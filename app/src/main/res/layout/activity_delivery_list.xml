@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.sam.pizza.CustomerClass.MakeOrderCustomerActivity_old">
+    tools:context="com.example.sam.pizza.DeliveryActivities.DeliveryListActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
             android:id="@+id/delivery_log_out_button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Log out"
+            android:text=" Log out "
             android:textAllCaps="true"
             android:background="@color/mainBlack"
             android:textColor="@color/mainWhite"
@@ -28,7 +28,7 @@
             android:textAllCaps="true"
             android:layout_below="@id/delivery_log_out_button1"
             android:layout_marginTop="30dp"
-            android:textSize="24dp"
+            android:textSize="16dp"
             android:textColor="@color/mainBlack"/>
         <Button
             android:id="@+id/delivery_finished_orders_button"
@@ -38,7 +38,7 @@
             android:textAllCaps="true"
             android:layout_alignParentRight="true"
             android:layout_below="@id/delivery_log_out_button1"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:background="@color/mainBlack"
             android:textColor="@color/mainWhite"
             android:textSize="16dp"/>

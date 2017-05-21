@@ -1,11 +1,11 @@
 package com.example.sam.pizza.OwnerActivities;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
 import com.example.sam.pizza.R;
 
-public class OwnerActivity extends AppCompatActivity {
+public class OwnerActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

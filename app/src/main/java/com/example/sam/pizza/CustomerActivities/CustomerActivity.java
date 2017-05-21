@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.sam.pizza.Customer;
 import com.example.sam.pizza.MainActivity;
+import com.example.sam.pizza.PizzaOverflowApplication;
 import com.example.sam.pizza.R;
 
 public class CustomerActivity extends Activity {
@@ -15,7 +17,6 @@ public class CustomerActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer);
-
 
         Button logOutButton = (Button) findViewById(R.id.customer_log_out_button);
         logOutButton.setOnClickListener(new View.OnClickListener(){
